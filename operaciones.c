@@ -1,24 +1,24 @@
 #include "operaciones.h"
 
-/* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
+/* Implementacion de sumar, con referencia de estilo*/
 
 int sumar(int a, int b) {
     return a + b;
 }
 
-/* ── restar — ya implementada ────────────────────────────────────────────── */
+/* Implementacion de restar */
 
 int restar(int a, int b) {
     return a - b;
 }
 
-/* Multiplica dos enteros a y b usando el operador * */
+/* Implementacion de multiplicar */
 
 int multiplicar(int a, int b) {
     return a * b;
 }
 
-/* ── esPar ────────────────────────────────────────────────────────────────── */
+/* Implementacion de esPar */
 
 int esPar(int n) {
     return (n % 2) == 0;
